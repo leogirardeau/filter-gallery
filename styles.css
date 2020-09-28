@@ -41,7 +41,7 @@ section ul li.active {
   margin: 5px;
 }
 
-.photo img {
+.photos .photo img {
   max-width: 100%;
   height: auto;
 }
