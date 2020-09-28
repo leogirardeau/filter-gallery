@@ -3,3 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+section {
+  padding: 20px;
+  width: 1280px;
+  margin: 40px auto;
+}
+
+section ul {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+section ul li {
+  list-style: none;
+  background-color: #eee;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+section ul li.active {
+  background-color: lightcoral;
+  color: #fff;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos .photo {
+  position: relative;
+  max-width: 300px;
+  height: 200px;
+  margin: 5px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
