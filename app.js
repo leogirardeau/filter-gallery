@@ -12,4 +12,8 @@ $(document).ready(function () {
         .show("1000");
     }
   });
+
+  $(".list").click(function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
 });
